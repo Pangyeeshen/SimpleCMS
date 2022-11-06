@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ResourcesController;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +21,9 @@ use App\Http\Controllers\UserController;
 //     return $request->user();
 // });
 
-Route::prefix('admin')->controller(UserController::class)->group(function() {
-    Route::post('/authenticate', 'authenticate');
+Route::prefix('admin')->group(function() {
+    Route::post('/authenticate', [UserController::class, 'authenticate']);
+
+    Route::resource('resources',ResourcesController::class);
+    Route::resource('pages',PagesController::class);
 });

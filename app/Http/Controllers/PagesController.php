@@ -11,7 +11,7 @@ class PagesController extends Controller
 {
     //
 
-    public function create(CreatePagesRequest $request)
+    public function store(CreatePagesRequest $request)
     {
         $validate = $request->validated();
 
@@ -36,7 +36,7 @@ class PagesController extends Controller
         else return response()->BaseResponse('422','','Page has not been updated');
     }
 
-    public function delete($id)
+    public function destroy($id)
     {
         $pages = Pages::where('id', $request['id']);
 
@@ -45,7 +45,7 @@ class PagesController extends Controller
         return response()->BaseResponse('200','','Page has been deleted');
     }
 
-    public function view($id)
+    public function show($id)
     {
         $pages = Pages::where('id', $request['id']);
 

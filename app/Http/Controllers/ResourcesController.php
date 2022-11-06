@@ -11,7 +11,7 @@ class ResourcesController extends Controller
 {
     //
 
-    public function create(CreatePagesRequest $request)
+    public function store(CreatePagesRequest $request)
     {
         $validate = $request->validated();
 
@@ -36,7 +36,7 @@ class ResourcesController extends Controller
         else return response()->BaseResponse('422','','Resources has not been updated');
     }
 
-    public function delete($id)
+    public function destroy($id)
     {
         $resources = Resources::where('id', $request['id']);
 
@@ -45,7 +45,7 @@ class ResourcesController extends Controller
         return response()->BaseResponse('200','','Resources has been deleted');
     }
 
-    public function view($id)
+    public function show($id)
     {
         $resources = Resources::where('id', $request['id']);
 
