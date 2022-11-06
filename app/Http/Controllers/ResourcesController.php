@@ -38,7 +38,7 @@ class ResourcesController extends Controller
 
     public function destroy($id)
     {
-        $resources = Resources::where('id', $request['id']);
+        $resources = Resources::where('id', $id);
 
         if($resources == null) return response()->BaseResponse('404','Resources Entity not found', $resources);
         $resources->delete();
@@ -47,7 +47,7 @@ class ResourcesController extends Controller
 
     public function show($id)
     {
-        $resources = Resources::where('id', $request['id']);
+        $resources = Resources::where('id', $id);
 
         if($resources == null) return response()->BaseResponse('404','Resources Entity not found', '', $resources);
         return response()->BaseResponse('200','','', $resources);

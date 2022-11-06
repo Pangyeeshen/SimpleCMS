@@ -38,7 +38,7 @@ class PagesController extends Controller
 
     public function destroy($id)
     {
-        $pages = Pages::where('id', $request['id']);
+        $pages = Pages::where('id', $id);
 
         if($pages == null) return response()->BaseResponse('404','Page Entity not found', $pages);
         $pages->delete();
@@ -47,7 +47,7 @@ class PagesController extends Controller
 
     public function show($id)
     {
-        $pages = Pages::where('id', $request['id']);
+        $pages = Pages::where('id', $id);
 
         if($pages == null) return response()->BaseResponse('404','Page Entity not found', '', $pages);
         return response()->BaseResponse('200','','', $pages);
