@@ -6,7 +6,7 @@
                 class="img_corner_8bit"
                 style="height: 212px; width: 212px"
             >
-                <img class="w-100 h-100" :src="'img/profolio.jpeg'" />
+                <img class="w-100 h-100" src="img/ethan.jpeg" />
             </div>
             <p style="margin-bottom: 0px">
                 <span style="font-size: 1rem"> Contact </span>
@@ -126,5 +126,12 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.row {
+    display: flex;
+}
+
+.row > div {
+    margin: 10px;
+}
 </style>

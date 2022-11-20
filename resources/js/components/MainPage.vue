@@ -3,7 +3,7 @@
     <div :class="{ hideContainer: showBios  }"  class="container" >
       <div :class="{ popDownThenClose: hideEnvelope  }"  class="text-center">
         <h2 class="white">Click The Envelope</h2>
-        <img class="mail" src="/storage/img/mail.png" @click="hideEnv"/>
+        <img class="mail" src="img/envelope.png" @click="hideEnv"/>
       </div>
     </div>
     <div :class="{ popOut: showBios, hideScale: !showBios }">

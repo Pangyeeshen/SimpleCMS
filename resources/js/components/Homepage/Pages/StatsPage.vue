@@ -127,9 +127,17 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .rating{
     width: 70%;
+}
+
+.row {
+    display: flex;
+}
+
+.row > div {
+    margin: 10px;
 }
 </style>

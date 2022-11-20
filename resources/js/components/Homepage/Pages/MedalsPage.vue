@@ -32,4 +32,12 @@ export default {
     border-width: 0.125em 0.125em;
     padding: 5px;
 }
+
+.row {
+    display: flex;
+}
+
+.row > div {
+    margin: 10px;
+}
 </style>
