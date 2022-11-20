@@ -5,7 +5,7 @@
                 <p> Project: {{ project.title }}</p>
             </div>
             <div class="row mb-2">
-                <div class="col-6 text-center">
+                <div class="col-6 text-center content-center">
                     <img class="project" :src="project.link">
                 </div>
                 <div class="col-6 description" >
@@ -25,18 +25,18 @@ export default {
         projects: [
             { 
                 title:"Auction2U", 
-                link: "/storage/img/auction2u.png",
+                link: "img/auction2u.jpg",
                 desc: "Auction2U is a website that is designed for betting purposes. Auction2U is Malaysia Largest Pre-Loved Luxury Wholesale & Trading House. User of the website will be able to bet on luxury items from jewery to watches that are branded like Celine, Dior, Gucci and more"
             }, 
             { 
                 title:"Reskills", 
-                link: "/storage/img/reskills.png",
+                link: "img/reskills.jpg",
                 desc: "ReSkills was born from a mission to provide accessible and affordable education to people everywhere. It aims to accomplish this through nine exclusive educational programs, each covering a different medium and aspect of online-learning."
             },
             { 
-                title:"Sime Darby SPU", 
-                link: "/storage/img/simedarby.png",
-                desc: "Sime Darby SPU aims to accomplish provide data recording system to the agriculture world in Asia, The website provides date recording function for the Sime Darby to record their seed production process. Like Palms, Trial and more"
+                title:"SawitNow", 
+                link: "img/sawitnow.jpg",
+                desc: "SawitNow aims to accomplish provide data recording system to the agriculture world in Asia, The website provides date recording function for the Sime Darby to record their seed production process. Like Palms, Trial and more"
             },
             { 
                 title:"Darwin", 
@@ -65,5 +65,10 @@ export default {
 
 .description{
     letter-spacing: 1px;
+}
+
+.content-center{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 </style>
