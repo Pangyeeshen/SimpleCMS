@@ -12,8 +12,8 @@ export default {
   data () {
     return {
         certs: [
-            { title:'Prosolve 2018', link: '/storage/img/prosolve.jpg'}, 
-            { title:'Techcreavery 2018', link: '/storage/img/techcreavery.jpg'}
+            { title:'Prosolve 2018', link: 'img/prosolve.jpg'}, 
+            { title:'Techcreavery 2018', link: 'img/techcreavery.jpg'}
         ]
     }
   },
