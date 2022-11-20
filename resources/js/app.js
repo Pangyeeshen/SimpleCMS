@@ -21,6 +21,7 @@ window.Vue = require('vue').default;
 Vue.use(require('./bootstrap'));
 
 Vue.component('admin-base', require('./components/AdminBase.vue').default);
+Vue.component('main-page', require('./components/MainPage.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
