@@ -2,7 +2,7 @@
     <div class="section_8bit" style="padding: 5px">
         <div  v-for="(project, index) in projects" :key="project+index" class="img-contrainer">
             <div class="text-center">
-                <p> Project: {{ project.title }}</p>
+                <p> Project: <a :href="project.url" target="_blank">{{ project.title }}</a></p>
             </div>
             <div class="row mb-2">
                 <div class="col-6 text-center content-center">
@@ -26,21 +26,25 @@ export default {
             { 
                 title:"Auction2U", 
                 link: "img/auction2u.jpg",
+                url: "https://www.auction2u.com/",
                 desc: "Auction2U is a website that is designed for betting purposes. Auction2U is Malaysia Largest Pre-Loved Luxury Wholesale & Trading House. User of the website will be able to bet on luxury items from jewery to watches that are branded like Celine, Dior, Gucci and more"
             }, 
             { 
                 title:"Reskills", 
                 link: "img/reskills.jpg",
+                url: "https://reskills.com/",
                 desc: "ReSkills was born from a mission to provide accessible and affordable education to people everywhere. It aims to accomplish this through nine exclusive educational programs, each covering a different medium and aspect of online-learning."
             },
             { 
                 title:"SawitNow", 
                 link: "img/sawitnow.jpg",
+                url: "https://www.auction2u.com/",
                 desc: "SawitNow aims to accomplish provide data recording system to the agriculture world in Asia, The website provides date recording function for the Sime Darby to record their seed production process. Like Palms, Trial and more"
             },
             { 
                 title:"Darwin", 
                 link: "/storage/img/darwin.png",
+                url: "https://www.auction2u.com/",
                 desc: "Darwin is a project that deliever a next level data recording to the world, it is not only data recording but the flexibality that it provide to it user to create the workflow, inventory and subject into the system and tied the data to each of these element."
             }
 

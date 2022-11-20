@@ -13,7 +13,7 @@
             </p>
             <span style="font-size: 1rem">
                 <a
-                    href="mailto:pangyeeshen2@gmail.com"
+                    href="mailto:fly.yeeshen@gmail.com"
                     target="_blank"
                     class="white"
                 >
@@ -61,9 +61,10 @@
         <div>
             <p>
                 Description : <br />
-                Organized and motivated developer hoping for a position
-                at a company, where I can apply and make improvement in my
-                skills sets, to develop great websites, app or system.
+                Organized and motivated developer hoping for a position at a company, 
+                where I can apply and make improvement in my skills sets, as well as to make contributions 
+                towards the company. Adept with Task Management software like 
+                Jira and Git Software like GitHub Desktop and Source Tree.
             </p>
         </div>
     </div>
@@ -72,21 +73,41 @@
             <p>
                 Experience : <br />
                 
-                Software Engineer (June 2021–May 2022)<br />
+                Software Engineer (June 2021– Present)<br />
                 <small>Codon Genomics SDN BHD</small>
             </p>
             <ul>
-                <li>Handle development with team member.</li>
-                <li>Investigate, diagnosing and debug system bugs.</li>
-                <li>Assist on solving technical issues faced by other team members.</li>
+                <li>Engineered modern applications with C#, Dotnet Core, SQL Server and Vue JS. Built clean codes by following the KISS, YAGNI and DRY principles. </li>
+                <li>Collaborate with team member to brainstorm and develop solutions or extensions towards the company’s existing software solutions. </li>
+                <li>Liaised with client and product manager to identify and organize product requirements and features to later debrief it to the other team members.</li>
+                <li>Reviewed pull request of team members and help ensure that the changes meet the quality standards.</li>
             </ul>
+
+            <p>
+                Key achievement : <br />
+            </p>
+            <ul>
+                <li>Optimized the data importation process for the existing software solutions and reduced the duration of importation of 100k records that taken days to compete to minutes. </li>
+                <li>Collaborated with team lead to brainstorm and developed features that we first thought was not doable.</li>
+            </ul>
+
             <p>
                 Mobile/Web Developer (Oct 2019–May 2021)<br />
                 <small>Bravo Net Solution SDN BHD</small>
             </p>
             <ul>
-                <li>Handle development of individual programs.</li>
-                <li>Investigate, diagnosing and debug system.</li>
+                <li>Handled development of projects with PHP, CSS, HTML, JS, MYSQL, JAVA and VueJs.</li>
+                <li>Worked closely with the team members to brainstorm and develop solutions for existing or new projects.</li>
+                <li>Assist on solving technical issues faced by other team members.</li>
+                <li>Handle server-side integration using LAMP stack for deployment and hosting of web applications.</li>
+            </ul>
+
+            
+            <p>
+                Key achievement : <br />
+            </p>
+            <ul>
+                <li>Enhancements and modifications have been successfully implemented towards projects that increased the overall software quality</li>
             </ul>
         </div>
     </div>
@@ -94,9 +115,14 @@
         <div>
             <p>
                 Education : <br />
+
+                Wawasan Open University <br />
+                (PRESENT) <br />
+                <small>Bachelor of Software Engineering (HONS)</small><br />
+                <small>CGPA:</small>
                 
                 Polytechnic Tuanku Syed Sirajuddin <br />
-                (Jun 2016 – May 2019) <br />
+                (Jun 2016 – December 2018) <br />
                 <small>Diploma in Digital Technologies (Programming)</small><br />
                 <small>CGPA: 3.80</small>
             </p>
