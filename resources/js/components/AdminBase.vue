@@ -5,13 +5,11 @@
 </template>
 
 <script>
-import Pages from "./Admin/Pages.vue";
-import Resources from "./Admin/Resources.vue";
-import Sidebar from "./Admin/Sidebar.vue";
+import AdminSidebar from "./Admin/AdminSidebar.vue";
 
 export default {
     components: {
-        sidebar: Sidebar,
+        sidebar: AdminSidebar,
     },
     data() {
         return {

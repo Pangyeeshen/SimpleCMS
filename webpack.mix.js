@@ -16,7 +16,7 @@ require('laravel-mix-eslint')
 mix.js('resources/js/app.js', 'public/js').vue()
     .eslint({
         fix: true,
-        extensions: ['js']
+        extensions: ['vue']
     })
     .sass('resources/sass/app.scss', 'public/css')
     .copy(
