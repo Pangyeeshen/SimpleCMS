@@ -105,19 +105,19 @@ export default {
         let imgPath = '';
         switch(rate){
             case 1:
-                imgPath = '/storage/img/one-star.png';
+                imgPath = 'img/one-star.png';
             break
             case 2:
-                imgPath = '/storage/img/two-star.png';
+                imgPath = 'img/two-star.png';
             break
             case 3:
-                imgPath = '/storage/img/three-star.png';
+                imgPath = 'img/three-star.png';
             break
             case 4:
-                imgPath = '/storage/img/four-star.png';
+                imgPath = 'img/four-star.png';
             break
             case 5:
-                imgPath = '/storage/img/five-star.png';
+                imgPath = 'img/five-star.png';
             break
         }
 
